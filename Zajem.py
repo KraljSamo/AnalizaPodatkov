@@ -1,6 +1,5 @@
 import os
 import requests
-from requests.auth import HTTPBasicAuth
 import re
 
 def shrani(url, ime_dat):
