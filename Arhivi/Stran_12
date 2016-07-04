@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Colin Hughes" />
+<meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" />
+<meta name="keywords" content="programming,mathematics,problems,puzzles" />
+<title>Archived Problems - Project Euler</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="themes/default/style_default.css" />
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+         inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+         displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+         processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script>
+<!--[if !IE]><!-->
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full,Safe"></script>
+<!--<![endif]-->
+<!--[if IE]>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS_HTML-full,Safe"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="container">
+<div id="header" class="noprint">
+<div id="nav" class="noprint">
+<ul>
+<li><a href="about" title="About" accesskey="h">About</a></li>
+<li id="current"><a href="archives" title="Archives" accesskey="1">Archives</a></li>
+<li><a href="recent" title="Recent" accesskey="2">Recent</a></li>
+<li><a href="news" title="News" accesskey="3">News</a></li>
+<li><a href="register" title="Register" accesskey="4">Register</a></li>
+<li><a href="sign_in" title="Sign In" accesskey="5">Sign In</a></li>
+</ul>
+</div>
+
+<div id="logo" class="noprint">
+   <div>Project Euler<span>.net</span></div>
+</div>
+</div>
+
+<div id="info_panel"><a href="rss2_euler.xml"><img src="images/icon_rss.png" alt="RSS Feed" title="RSS Feed" /></a><span class="info" style="cursor:pointer;"><a href="secure=oeeQOjZyD2jX3i0o"><img src="images/icon_lock.png" alt="secure_icon" /></a><span style="color:#070;font-weight:bold;text-align:left;width:250px;right:10px;">You are currently using a secure connection</span></span></div>
+<div id="content">
+<div id="problems_table_page">
+<h2>Problems Archives</h2>
+<p>The problems archives table shows problems 1 to 556. If you would like to tackle the 10 most recently published problems then go to <a href="recent">Recent</a> problems.<br />Click the description/title of the problem to view details and submit your answer.</p><div class="pagination"><a href="archives">1</a></li> <a href="archives;page=2" title="Go to page 2">2</a><a href="archives;page=3" title="Go to page 3">3</a><a href="archives;page=4" title="Go to page 4">4</a><a href="archives;page=5" title="Go to page 5">5</a><a href="archives;page=6" title="Go to page 6">6</a><a href="archives;page=7" title="Go to page 7">7</a><a href="archives;page=8" title="Go to page 8">8</a><a href="archives;page=9" title="Go to page 9">9</a><a href="archives;page=10" title="Go to page 10">10</a><a href="archives;page=11" title="Go to page 11">11</a><a href="archives;page=12" class="current">12</a><span>&nbsp;&nbsp;&nbsp;Go to Problem: <input type="text" id="jump_top" style="width:30px;" onkeypress="if (event.keyCode==13) location.href='problem='+this.value;" /></span></div>
+<div style="clear:both;"></div>
+<br />
+
+<table id="problems_table" class="grid">
+<tr><th class="id_column"><strong><span class="sortby">ID</span></strong></th><th class="title_column">Description / Title</th><th class="solved_by_column"><strong>Solved By</th></tr>
+<tr><td class="id_column">551</td><td><a href="problem=551" title="Published on Saturday, 12th March 2016, 04:00 pm">Sum of digits sequence</a></td><td><div style="text-align:center;"><a href="fastest=551" title="View fastest solvers">199</a></div></td></tr>
+<tr><td class="id_column">552</td><td><a href="problem=552" title="Published on Saturday, 19th March 2016, 07:00 pm">Chinese leftovers II</a></td><td><div style="text-align:center;"><a href="fastest=552" title="View fastest solvers">202</a></div></td></tr>
+<tr><td class="id_column">553</td><td><a href="problem=553" title="Published on Saturday, 26th March 2016, 10:00 pm">Power sets of power sets</a></td><td><div style="text-align:center;"><a href="fastest=553" title="View fastest solvers">104</a></div></td></tr>
+<tr><td class="id_column">554</td><td><a href="problem=554" title="Published on Sunday, 3rd April 2016, 01:00 am">Centaurs on a chess board</a></td><td><div style="text-align:center;"><a href="fastest=554" title="View fastest solvers">108</a></div></td></tr>
+<tr><td class="id_column">555</td><td><a href="problem=555" title="Published on Sunday, 10th April 2016, 04:00 am">McCarthy 91 function</a></td><td><div style="text-align:center;"><a href="fastest=555" title="View fastest solvers">279</a></div></td></tr>
+<tr><td class="id_column">556</td><td><a href="problem=556" title="Published on Sunday, 17th April 2016, 07:00 am">Squarefree Gaussian Integers</a></td><td><div style="text-align:center;"><a href="fastest=556" title="View fastest solvers">99</a></div></td></tr>
+</table>
+<br />
+<div class="pagination"><a href="archives">1</a></li> <a href="archives;page=2" title="Go to page 2">2</a><a href="archives;page=3" title="Go to page 3">3</a><a href="archives;page=4" title="Go to page 4">4</a><a href="archives;page=5" title="Go to page 5">5</a><a href="archives;page=6" title="Go to page 6">6</a><a href="archives;page=7" title="Go to page 7">7</a><a href="archives;page=8" title="Go to page 8">8</a><a href="archives;page=9" title="Go to page 9">9</a><a href="archives;page=10" title="Go to page 10">10</a><a href="archives;page=11" title="Go to page 11">11</a><a href="archives;page=12" class="current">12</a><span>&nbsp;&nbsp;&nbsp;Go to Problem: <input type="text" id="jump_bottom" style="width:30px;" onkeypress="if (event.keyCode==13) location.href='problem='+this.value;" /></span></div>
+<div style="clear:both;"></div>
+<script type="text/javascript">
+function gotoPage(elem) {
+   page = elem.value;
+   page_str = ";page=" + page;
+   if (elem.value == 1) page_str = "";
+   if (page > 0 && page <= 12) location.href = 'archives' + page_str;
+}
+//document.getElementById('jump_top').focus();
+</script>
+
+</div></div>
+
+<div id="footer" class="noprint">
+Project Euler: <a href="copyright">Copyright Information</a> | <a href="privacy">Privacy Policy</a>
+<!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <Work rdf:about="">
+      <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/" />
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   </Work>
+   <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+</div>
+</div>
+</body>
+</html>

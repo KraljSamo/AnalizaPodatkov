@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Colin Hughes" />
+<meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" />
+<meta name="keywords" content="programming,mathematics,problems,puzzles" />
+<title>Archived Problems - Project Euler</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="themes/default/style_default.css" />
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+         inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+         displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+         processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script>
+<!--[if !IE]><!-->
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full,Safe"></script>
+<!--<![endif]-->
+<!--[if IE]>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS_HTML-full,Safe"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="container">
+<div id="header" class="noprint">
+<div id="nav" class="noprint">
+<ul>
+<li><a href="about" title="About" accesskey="h">About</a></li>
+<li id="current"><a href="archives" title="Archives" accesskey="1">Archives</a></li>
+<li><a href="recent" title="Recent" accesskey="2">Recent</a></li>
+<li><a href="news" title="News" accesskey="3">News</a></li>
+<li><a href="register" title="Register" accesskey="4">Register</a></li>
+<li><a href="sign_in" title="Sign In" accesskey="5">Sign In</a></li>
+</ul>
+</div>
+
+<div id="logo" class="noprint">
+   <div>Project Euler<span>.net</span></div>
+</div>
+</div>
+
+<div id="info_panel"><a href="rss2_euler.xml"><img src="images/icon_rss.png" alt="RSS Feed" title="RSS Feed" /></a><span class="info" style="cursor:pointer;"><a href="secure=uDi4L0LWEz8jn4nu"><img src="images/icon_lock.png" alt="secure_icon" /></a><span style="color:#070;font-weight:bold;text-align:left;width:250px;right:10px;">You are currently using a secure connection</span></span></div>
+<div id="content">
+<div id="problems_table_page">
+<h2>Problems Archives</h2>
+<p>The problems archives table shows problems 1 to 556. If you would like to tackle the 10 most recently published problems then go to <a href="recent">Recent</a> problems.<br />Click the description/title of the problem to view details and submit your answer.</p><div class="pagination"><a href="archives" title="Go to page 1">1</a><a href="archives;page=2" title="Go to page 2">2</a><a href="archives;page=3" title="Go to page 3">3</a><a href="archives;page=4" title="Go to page 4">4</a><a href="archives;page=5" title="Go to page 5">5</a><a href="archives;page=6" class="current">6</a><a href="archives;page=7" title="Go to page 7">7</a><a href="archives;page=8" title="Go to page 8">8</a><a href="archives;page=9" title="Go to page 9">9</a><a href="archives;page=10" title="Go to page 10">10</a><a href="archives;page=11" title="Go to page 11">11</a><a href="archives;page=12" title="Go to page 12">12</a><span>&nbsp;&nbsp;&nbsp;Go to Problem: <input type="text" id="jump_top" style="width:30px;" onkeypress="if (event.keyCode==13) location.href='problem='+this.value;" /></span></div>
+<div style="clear:both;"></div>
+<br />
+
+<table id="problems_table" class="grid">
+<tr><th class="id_column"><strong><span class="sortby">ID</span></strong></th><th class="title_column">Description / Title</th><th class="solved_by_column"><strong>Solved By</th></tr>
+<tr><td class="id_column">251</td><td><a href="problem=251" title="Published on Saturday, 20th June 2009, 09:00 am">Cardano Triplets</a></td><td><div style="text-align:center;">915</div></td></tr>
+<tr><td class="id_column">252</td><td><a href="problem=252" title="Published on Saturday, 27th June 2009, 01:00 pm">Convex Holes</a></td><td><div style="text-align:center;">597</div></td></tr>
+<tr><td class="id_column">253</td><td><a href="problem=253" title="Published on Friday, 28th August 2009, 01:00 pm">Tidying up</a></td><td><div style="text-align:center;">703</div></td></tr>
+<tr><td class="id_column">254</td><td><a href="problem=254" title="Published on Friday, 4th September 2009, 05:00 pm">Sums of Digit Factorials</a></td><td><div style="text-align:center;">667</div></td></tr>
+<tr><td class="id_column">255</td><td><a href="problem=255" title="Published on Friday, 11th September 2009, 09:00 pm">Rounded Square Roots</a></td><td><div style="text-align:center;">640</div></td></tr>
+<tr><td class="id_column">256</td><td><a href="problem=256" title="Published on Saturday, 19th September 2009, 01:00 am">Tatami-Free Rooms</a></td><td><div style="text-align:center;">513</div></td></tr>
+<tr><td class="id_column">257</td><td><a href="problem=257" title="Published on Saturday, 26th September 2009, 05:00 am">Angular Bisectors</a></td><td><div style="text-align:center;">453</div></td></tr>
+<tr><td class="id_column">258</td><td><a href="problem=258" title="Published on Saturday, 3rd October 2009, 09:00 am">A lagged Fibonacci sequence</a></td><td><div style="text-align:center;">1023</div></td></tr>
+<tr><td class="id_column">259</td><td><a href="problem=259" title="Published on Saturday, 10th October 2009, 01:00 pm">Reachable Numbers</a></td><td><div style="text-align:center;">1082</div></td></tr>
+<tr><td class="id_column">260</td><td><a href="problem=260" title="Published on Friday, 16th October 2009, 01:00 pm">Stone Game</a></td><td><div style="text-align:center;">912</div></td></tr>
+<tr><td class="id_column">261</td><td><a href="problem=261" title="Published on Friday, 23rd October 2009, 05:00 pm">Pivotal Square Sums</a></td><td><div style="text-align:center;">458</div></td></tr>
+<tr><td class="id_column">262</td><td><a href="problem=262" title="Published on Friday, 30th October 2009, 09:00 pm">Mountain Range</a></td><td><div style="text-align:center;">494</div></td></tr>
+<tr><td class="id_column">263</td><td><a href="problem=263" title="Published on Saturday, 7th November 2009, 01:00 am">An engineers' dream come true</a></td><td><div style="text-align:center;">736</div></td></tr>
+<tr><td class="id_column">264</td><td><a href="problem=264" title="Published on Saturday, 14th November 2009, 05:00 am">Triangle Centres</a></td><td><div style="text-align:center;">397</div></td></tr>
+<tr><td class="id_column">265</td><td><a href="problem=265" title="Published on Saturday, 21st November 2009, 09:00 am">Binary Circles</a></td><td><div style="text-align:center;">3016</div></td></tr>
+<tr><td class="id_column">266</td><td><a href="problem=266" title="Published on Saturday, 28th November 2009, 01:00 pm">Pseudo Square Root</a></td><td><div style="text-align:center;">1153</div></td></tr>
+<tr><td class="id_column">267</td><td><a href="problem=267" title="Published on Friday, 4th December 2009, 01:00 pm">Billionaire</a></td><td><div style="text-align:center;">2375</div></td></tr>
+<tr><td class="id_column">268</td><td><a href="problem=268" title="Published on Friday, 11th December 2009, 05:00 pm">Counting numbers with at least four distinct prime factors less than 100</a></td><td><div style="text-align:center;">994</div></td></tr>
+<tr><td class="id_column">269</td><td><a href="problem=269" title="Published on Saturday, 19th December 2009, 09:00 am">Polynomials with at least one integer root</a></td><td><div style="text-align:center;">474</div></td></tr>
+<tr><td class="id_column">270</td><td><a href="problem=270" title="Published on Saturday, 26th December 2009, 01:00 am">Cutting Squares</a></td><td><div style="text-align:center;">462</div></td></tr>
+<tr><td class="id_column">271</td><td><a href="problem=271" title="Published on Saturday, 2nd January 2010, 05:00 am">Modular Cubes, part 1</a></td><td><div style="text-align:center;">1648</div></td></tr>
+<tr><td class="id_column">272</td><td><a href="problem=272" title="Published on Saturday, 2nd January 2010, 05:00 am">Modular Cubes, part 2</a></td><td><div style="text-align:center;">627</div></td></tr>
+<tr><td class="id_column">273</td><td><a href="problem=273" title="Published on Saturday, 9th January 2010, 01:00 pm">Sum of Squares</a></td><td><div style="text-align:center;">931</div></td></tr>
+<tr><td class="id_column">274</td><td><a href="problem=274" title="Published on Friday, 15th January 2010, 01:00 pm">Divisibility Multipliers</a></td><td><div style="text-align:center;">1030</div></td></tr>
+<tr><td class="id_column">275</td><td><a href="problem=275" title="Published on Friday, 22nd January 2010, 05:00 pm">Balanced Sculptures</a></td><td><div style="text-align:center;">427</div></td></tr>
+<tr><td class="id_column">276</td><td><a href="problem=276" title="Published on Friday, 29th January 2010, 09:00 pm">Primitive Triangles</a></td><td><div style="text-align:center;">742</div></td></tr>
+<tr><td class="id_column">277</td><td><a href="problem=277" title="Published on Saturday, 6th February 2010, 01:00 am">A Modified Collatz sequence</a></td><td><div style="text-align:center;"><a href="fastest=277" title="View fastest solvers">2194</a></div></td></tr>
+<tr><td class="id_column">278</td><td><a href="problem=278" title="Published on Saturday, 13th February 2010, 05:00 am">Linear Combinations of Semiprimes</a></td><td><div style="text-align:center;"><a href="fastest=278" title="View fastest solvers">673</a></div></td></tr>
+<tr><td class="id_column">279</td><td><a href="problem=279" title="Published on Saturday, 20th February 2010, 09:00 am">Triangles with integral sides and an integral angle </a></td><td><div style="text-align:center;"><a href="fastest=279" title="View fastest solvers">473</a></div></td></tr>
+<tr><td class="id_column">280</td><td><a href="problem=280" title="Published on Saturday, 27th February 2010, 01:00 pm">Ant and seeds</a></td><td><div style="text-align:center;"><a href="fastest=280" title="View fastest solvers">703</a></div></td></tr>
+<tr><td class="id_column">281</td><td><a href="problem=281" title="Published on Friday, 5th March 2010, 01:00 pm">Pizza Toppings</a></td><td><div style="text-align:center;"><a href="fastest=281" title="View fastest solvers">611</a></div></td></tr>
+<tr><td class="id_column">282</td><td><a href="problem=282" title="Published on Friday, 12th March 2010, 05:00 pm">The Ackermann function</a></td><td><div style="text-align:center;"><a href="fastest=282" title="View fastest solvers">669</a></div></td></tr>
+<tr><td class="id_column">283</td><td><a href="problem=283" title="Published on Friday, 19th March 2010, 09:00 pm">Integer sided triangles for which the  area/perimeter ratio is integral</a></td><td><div style="text-align:center;"><a href="fastest=283" title="View fastest solvers">459</a></div></td></tr>
+<tr><td class="id_column">284</td><td><a href="problem=284" title="Published on Saturday, 27th March 2010, 01:00 am">Steady Squares</a></td><td><div style="text-align:center;"><a href="fastest=284" title="View fastest solvers">878</a></div></td></tr>
+<tr><td class="id_column">285</td><td><a href="problem=285" title="Published on Saturday, 3rd April 2010, 05:00 am">Pythagorean odds</a></td><td><div style="text-align:center;"><a href="fastest=285" title="View fastest solvers">807</a></div></td></tr>
+<tr><td class="id_column">286</td><td><a href="problem=286" title="Published on Saturday, 3rd April 2010, 05:00 am">Scoring probabilities</a></td><td><div style="text-align:center;"><a href="fastest=286" title="View fastest solvers">1457</a></div></td></tr>
+<tr><td class="id_column">287</td><td><a href="problem=287" title="Published on Saturday, 10th April 2010, 09:00 am">Quadtree encoding (a simple compression algorithm)</a></td><td><div style="text-align:center;"><a href="fastest=287" title="View fastest solvers">977</a></div></td></tr>
+<tr><td class="id_column">288</td><td><a href="problem=288" title="Published on Saturday, 17th April 2010, 01:00 pm">An enormous factorial</a></td><td><div style="text-align:center;"><a href="fastest=288" title="View fastest solvers">1063</a></div></td></tr>
+<tr><td class="id_column">289</td><td><a href="problem=289" title="Published on Friday, 23rd April 2010, 01:00 pm">Eulerian Cycles</a></td><td><div style="text-align:center;"><a href="fastest=289" title="View fastest solvers">347</a></div></td></tr>
+<tr><td class="id_column">290</td><td><a href="problem=290" title="Published on Friday, 30th April 2010, 05:00 pm">Digital Signature</a></td><td><div style="text-align:center;"><a href="fastest=290" title="View fastest solvers">678</a></div></td></tr>
+<tr><td class="id_column">291</td><td><a href="problem=291" title="Published on Friday, 7th May 2010, 09:00 pm">Panaitopol Primes</a></td><td><div style="text-align:center;"><a href="fastest=291" title="View fastest solvers">906</a></div></td></tr>
+<tr><td class="id_column">292</td><td><a href="problem=292" title="Published on Saturday, 15th May 2010, 01:00 am">Pythagorean Polygons</a></td><td><div style="text-align:center;"><a href="fastest=292" title="View fastest solvers">408</a></div></td></tr>
+<tr><td class="id_column">293</td><td><a href="problem=293" title="Published on Saturday, 22nd May 2010, 05:00 am">Pseudo-Fortunate Numbers</a></td><td><div style="text-align:center;"><a href="fastest=293" title="View fastest solvers">1880</a></div></td></tr>
+<tr><td class="id_column">294</td><td><a href="problem=294" title="Published on Saturday, 29th May 2010, 09:00 am">Sum of digits - experience #23</a></td><td><div style="text-align:center;"><a href="fastest=294" title="View fastest solvers">599</a></div></td></tr>
+<tr><td class="id_column">295</td><td><a href="problem=295" title="Published on Saturday, 5th June 2010, 01:00 pm">Lenticular holes</a></td><td><div style="text-align:center;"><a href="fastest=295" title="View fastest solvers">341</a></div></td></tr>
+<tr><td class="id_column">296</td><td><a href="problem=296" title="Published on Friday, 11th June 2010, 01:00 pm">Angular Bisector and Tangent</a></td><td><div style="text-align:center;"><a href="fastest=296" title="View fastest solvers">398</a></div></td></tr>
+<tr><td class="id_column">297</td><td><a href="problem=297" title="Published on Friday, 18th June 2010, 05:00 pm">Zeckendorf Representation</a></td><td><div style="text-align:center;"><a href="fastest=297" title="View fastest solvers">1971</a></div></td></tr>
+<tr><td class="id_column">298</td><td><a href="problem=298" title="Published on Friday, 25th June 2010, 09:00 pm">Selective Amnesia</a></td><td><div style="text-align:center;"><a href="fastest=298" title="View fastest solvers">464</a></div></td></tr>
+<tr><td class="id_column">299</td><td><a href="problem=299" title="Published on Saturday, 3rd July 2010, 01:00 am">Three similar triangles</a></td><td><div style="text-align:center;"><a href="fastest=299" title="View fastest solvers">444</a></div></td></tr>
+<tr><td class="id_column">300</td><td><a href="problem=300" title="Published on Saturday, 4th September 2010, 01:00 pm">Protein folding</a></td><td><div style="text-align:center;"><a href="fastest=300" title="View fastest solvers">739</a></div></td></tr>
+</table>
+<br />
+<div class="pagination"><a href="archives" title="Go to page 1">1</a><a href="archives;page=2" title="Go to page 2">2</a><a href="archives;page=3" title="Go to page 3">3</a><a href="archives;page=4" title="Go to page 4">4</a><a href="archives;page=5" title="Go to page 5">5</a><a href="archives;page=6" class="current">6</a><a href="archives;page=7" title="Go to page 7">7</a><a href="archives;page=8" title="Go to page 8">8</a><a href="archives;page=9" title="Go to page 9">9</a><a href="archives;page=10" title="Go to page 10">10</a><a href="archives;page=11" title="Go to page 11">11</a><a href="archives;page=12" title="Go to page 12">12</a><span>&nbsp;&nbsp;&nbsp;Go to Problem: <input type="text" id="jump_bottom" style="width:30px;" onkeypress="if (event.keyCode==13) location.href='problem='+this.value;" /></span></div>
+<div style="clear:both;"></div>
+<script type="text/javascript">
+function gotoPage(elem) {
+   page = elem.value;
+   page_str = ";page=" + page;
+   if (elem.value == 1) page_str = "";
+   if (page > 0 && page <= 12) location.href = 'archives' + page_str;
+}
+//document.getElementById('jump_top').focus();
+</script>
+
+</div></div>
+
+<div id="footer" class="noprint">
+Project Euler: <a href="copyright">Copyright Information</a> | <a href="privacy">Privacy Policy</a>
+<!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <Work rdf:about="">
+      <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/" />
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   </Work>
+   <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+</div>
+</div>
+</body>
+</html>
