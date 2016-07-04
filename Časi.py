@@ -58,14 +58,14 @@ for i in range(6,13):
         slovar_nalog[int(ID)] = (ID, datum, ime, resilo, najhitrejsi, povprecni_cas, highscore)
 
 
-polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši čas", "Povprečni čas", "Highscore #"]
+polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši cas", "Povprecni cas", "Highscore #"]
 tabela = os.path.dirname('Tabela.csv')
 if tabela:
     os.makedirs(dat, exist_ok = True)
 with open('Tabela.csv','w') as file:
     writer = csv.writer(file)
     writer.writerow(polja)
-    for i in range(277,300):
+    for i in range(277,557):
         writer.writerow(slovar_nalog[i])
     
     

@@ -1,4 +1,4 @@
-ID,Objavljeno,Ime,Rešilo #,Najhitrejši èas,Povpreèni èas,Highscore #
+ID,Objavljeno,Ime,Rešilo #,Najhitrejši cas,Povprecni cas,Highscore #
 277,"6th February 2010, 01:00 am",A Modified Collatz sequence,2194,1310,2908,20
 278,"13th February 2010, 05:00 am",Linear Combinations of Semiprimes,673,1300,7231,20
 279,"20th February 2010, 09:00 am",Triangles with integral sides and an integral angle ,473,2439,12369,19
@@ -22,3 +22,260 @@ ID,Objavljeno,Ime,Rešilo #,Najhitrejši èas,Povpreèni èas,Highscore #
 297,"18th June 2010, 05:00 pm",Zeckendorf Representation,1971,389,2022,19
 298,"25th June 2010, 09:00 pm",Selective Amnesia,464,2923,14008,20
 299,"3rd July 2010, 01:00 am",Three similar triangles,444,1509,16422,20
+300,"4th September 2010, 01:00 pm",Protein folding,739,2142,7451,20
+301,"11th September 2010, 04:00 pm",Nim,3921,155,601,20
+302,"18th September 2010, 07:00 pm",Strong Achilles Numbers,497,5714,15734,20
+303,"25th September 2010, 10:00 pm",Multiples with small digits,2491,584,2171,19
+304,"3rd October 2010, 01:00 am",Primonacci,1419,640,10832,43
+305,"10th October 2010, 04:00 am",Reflexive Position,439,3696,63925,44
+306,"17th October 2010, 07:00 am",Paper-strip Game,755,1096,44655,49
+307,"24th October 2010, 10:00 am",Chip Defects,1048,705,14161,48
+308,"30th October 2010, 01:00 pm",An amazing Prime-generating Automaton,534,5142,76280,46
+309,"6th November 2010, 04:00 pm",Integer Ladders,515,1188,31671,47
+310,"13th November 2010, 07:00 pm",Nim Square,704,598,13313,48
+311,"20th November 2010, 10:00 pm",Biclinic Integral Quadrilaterals,309,4997,198210,49
+312,"28th November 2010, 01:00 am",Cyclic paths on Sierpiñski graphs,568,2856,34011,49
+313,"5th December 2010, 04:00 am",Sliding game,982,1762,7693,47
+314,"12th December 2010, 07:00 am",The Mouse on the Moon,353,3893,271180,39
+315,"19th December 2010, 10:00 am",Digital root clocks,1993,937,3528,48
+316,"25th December 2010, 01:00 pm",Numbers in decimal expansions,437,1060,42902,41
+317,"1st January 2011, 04:00 pm",Firecracker,1670,869,12129,45
+318,"1st January 2011, 04:00 pm",2011 nines,580,1568,26522,43
+319,"8th January 2011, 07:00 pm",Bounded Sequences,268,17813,523106,42
+320,"15th January 2011, 10:00 pm",Factorials divisible by a huge integer,570,1004,33115,49
+321,"23rd January 2011, 01:00 am",Swapping Counters,1087,1011,7955,46
+322,"30th January 2011, 04:00 am",Binomial coefficients divisible by 10,317,5196,117922,38
+323,"6th February 2011, 07:00 am",Bitwise-OR operations on random integers,2324,560,3986,48
+324,"13th February 2011, 10:00 am",Building a tower,445,4001,20914,38
+325,"19th February 2011, 01:00 pm",Stone Game II,395,6182,216598,39
+326,"26th February 2011, 04:00 pm",Modulo Summations,355,2306,38793,42
+327,"5th March 2011, 07:00 pm",Rooms of Doom,775,938,13705,49
+328,"12th March 2011, 10:00 pm",Lowest-cost Search,265,65205,714478,39
+329,"20th March 2011, 01:00 am",Prime Frog,1511,657,5019,47
+330,"27th March 2011, 05:00 am",Euler's Number,352,5825,135974,42
+331,"3rd April 2011, 08:00 am",Cross flips,249,8206,1477071,48
+332,"10th April 2011, 10:00 am",Spherical triangles,395,1524,31899,46
+333,"16th April 2011, 01:00 pm",Special partitions,765,839,11519,45
+334,"23rd April 2011, 04:00 pm",Spilling the beans,320,1638,91112,48
+335,"23rd April 2011, 04:00 pm",Gathering the beans,351,2570,92720,45
+336,"30th April 2011, 07:00 pm",Maximix Arrangements,1303,547,4136,48
+337,"7th May 2011, 10:00 pm",Totient Stairstep Sequences,342,1593,154067,49
+338,"15th May 2011, 01:00 am",Cutting Rectangular Grid Paper,229,6861,999158,47
+339,"22nd May 2011, 04:00 am",Peredur fab Efrawg,385,4669,166376,47
+340,"29th May 2011, 07:00 am",Crazy Function,657,1579,8023,50
+341,"5th June 2011, 10:00 am",Golomb's self-describing sequence,624,1308,27651,47
+342,"11th June 2011, 01:00 pm",The totient of a square is a cube,544,1852,34093,48
+343,"18th June 2011, 04:00 pm",Fractional Sequences,933,1760,10360,47
+344,"25th June 2011, 07:00 pm",Silver dollar game,210,39804,1057198,35
+345,"3rd September 2011, 04:00 pm",Matrix Sum,3105,173,2323,47
+346,"3rd September 2011, 04:00 pm",Strong Repunits,2242,570,2380,47
+347,"3rd September 2011, 04:00 pm",Largest integer divisible by two primes,2397,517,3059,48
+348,"3rd September 2011, 04:00 pm",Sum of a square and a cube,1743,424,5025,49
+349,"3rd September 2011, 04:00 pm",Langton's ant,1229,618,8342,46
+350,"10th September 2011, 07:00 pm",Constraining the least greatest and the greatest least,319,1816,57938,49
+351,"17th September 2011, 10:00 pm",Hexagonal orchards,1591,536,4918,46
+352,"2nd October 2011, 01:00 am",Blood tests,400,1538,54659,49
+353,"9th October 2011, 04:00 am",Risky moon,317,2929,43051,48
+354,"16th October 2011, 07:00 am",Distances in a bee's honeycomb ,271,6743,100247,49
+355,"23rd October 2011, 10:00 am",Maximal coprime subset,354,5831,195351,49
+356,"29th October 2011, 01:00 pm",Largest roots of cubic polynomials,361,1489,66806,44
+357,"5th November 2011, 04:00 pm",Prime generating integers,4253,450,1649,45
+358,"12th November 2011, 07:00 pm",Cyclic numbers,1019,757,6179,48
+359,"19th November 2011, 10:00 pm",Hilbert's New Hotel,947,1396,5651,45
+360,"27th November 2011, 01:00 am",Scary Sphere,429,5871,42421,48
+361,"4th December 2011, 04:00 am",Subsequence of Thue-Morse sequence,217,17292,676963,41
+362,"11th December 2011, 07:00 am",Squarefree factors,319,4351,174443,45
+363,"18th December 2011, 10:00 am",Bézier Curves,679,1880,12665,47
+364,"24th December 2011, 01:00 pm",Comfortable distance,444,2045,37263,47
+365,"31st December 2011, 04:00 pm",A huge binomial coefficient,769,4920,15871,48
+366,"7th January 2012, 07:00 pm",Stone Game III,403,5917,20023,46
+367,"14th January 2012, 10:00 pm",Bozo sort,327,6296,62762,49
+368,"22nd January 2012, 01:00 am",A Kempner-like series,391,896,24450,46
+369,"29th January 2012, 04:00 am",Badugi,320,2792,65683,47
+370,"5th February 2012, 07:00 am",Geometric triangles,359,7206,85177,43
+371,"12th February 2012, 10:00 am",Licence plates,983,782,7250,48
+372,"18th February 2012, 01:00 pm",Pencils of rays,288,1664,82927,45
+373,"25th February 2012, 04:00 pm",Circumscribed Circles,243,10401,276404,44
+374,"3rd March 2012, 07:00 pm",Maximum Integer Partition Product,427,1992,15826,46
+375,"10th March 2012, 10:00 pm",Minimum of subsequences,557,4235,19378,47
+376,"18th March 2012, 01:00 am",Nontransitive sets of dice,191,3505,136160,48
+377,"25th March 2012, 05:00 am","Sum of digits, experience 13",449,1160,25731,47
+378,"1st April 2012, 07:00 am",Triangle Triples,498,567,12024,48
+379,"8th April 2012, 11:00 am",Least common multiple count,328,38070,171189,47
+380,"14th April 2012, 02:00 pm",Amazing Mazes!,355,2995,79796,43
+381,"21st April 2012, 05:00 pm",(prime-k) factorial,2415,482,2212,47
+382,"28th April 2012, 08:00 pm",Generating polygons,234,15679,91347,46
+383,"5th May 2012, 11:00 pm",Divisibility comparison between factorials,345,4345,43452,48
+384,"13th May 2012, 02:00 am",Rudin-Shapiro sequence,243,9256,150041,47
+385,"20th May 2012, 05:00 am",Ellipses inside triangles,200,6846,125990,45
+386,"27th May 2012, 08:00 am",Maximum length of an antichain,467,2144,18686,49
+387,"3rd June 2012, 11:00 am",Harshad Numbers,2162,657,2109,49
+388,"9th June 2012, 02:00 pm",Distinct Lines,371,1731,40233,48
+389,"16th June 2012, 05:00 pm",Platonic Dice,937,791,8962,49
+390,"23rd June 2012, 08:00 pm",Triangles with non rational sides and integral area,418,6858,85085,47
+391,"30th June 2012, 11:00 pm",Hopping Game,199,8605,279685,47
+392,"1st September 2012, 02:00 pm",Enmeshed unit circle,428,2675,12952,47
+393,"8th September 2012, 05:00 pm",Migrating ants,483,2751,35791,49
+394,"15th September 2012, 08:00 pm",Eating pie,357,2987,55851,49
+395,"22nd September 2012, 11:00 pm",Pythagorean tree,445,2594,16209,48
+396,"30th September 2012, 02:00 am",Weak Goodstein sequence,411,3494,18795,49
+397,"7th October 2012, 05:00 am",Triangle on parabola,180,7840,165816,47
+398,"14th October 2012, 08:00 am",Cutting rope,248,5424,63414,46
+399,"21st October 2012, 11:00 am",Squarefree Fibonacci Numbers,383,2744,25304,49
+400,"27th October 2012, 02:00 pm",Fibonacci tree game,314,2672,44670,49
+401,"10th November 2012, 04:00 pm",Sum of squares of divisors,1530,897,4986,48
+402,"17th November 2012, 07:00 pm",Integer-valued polynomials,250,5755,60196,47
+403,"24th November 2012, 10:00 pm",Lattice points enclosed by parabola and line,232,4848,46030,47
+404,"2nd December 2012, 01:00 am",Crisscross Ellipses,221,5938,97604,47
+405,"9th December 2012, 04:00 am",A rectangular tiling,387,3130,13516,46
+406,"16th December 2012, 07:00 am",Guessing Game,242,2479,41754,47
+407,"23rd December 2012, 10:00 am",Idempotents,1300,501,4177,48
+408,"29th December 2012, 01:00 pm",Admissible paths through a grid,367,1731,111731,97
+409,"5th January 2013, 04:00 pm",Nim Extreme,293,620,183925,93
+410,"12th January 2013, 07:00 pm",Circle and tangent line,179,2913,631364,95
+411,"19th January 2013, 10:00 pm",Uphill paths,384,1149,108576,97
+412,"27th January 2013, 01:00 am",Gnomon numbering,301,936,125948,94
+413,"3rd February 2013, 04:00 am",One-child Numbers,251,2417,732991,93
+414,"10th February 2013, 07:00 am",Kaprekar constant,184,3539,226625,95
+415,"17th February 2013, 10:00 am",Titanic sets,200,19864,6879887,90
+416,"23rd February 2013, 01:00 pm",A frog's trip,183,2415,1346225,95
+417,"2nd March 2013, 04:00 pm",Reciprocal cycles II,503,1304,48473,97
+418,"9th March 2013, 07:00 pm",Factorisation triples,415,2234,62658,97
+419,"16th March 2013, 10:00 pm",Look and say sequence,325,4699,114966,92
+420,"24th March 2013, 01:00 am",2x2 positive integer matrix,264,3433,338743,93
+421,"31st March 2013, 04:00 am",Prime factors of ,369,5223,165135,95
+422,"7th April 2013, 07:00 am",Sequence of points on a hyperbola,169,4092,990120,91
+423,"14th April 2013, 10:00 am",Consecutive die throws,278,827,99632,95
+424,"20th April 2013, 01:00 pm",Kakuro,238,5633,307869,94
+425,"27th April 2013, 04:00 pm",Prime connection,867,448,19581,97
+426,"4th May 2013, 07:00 pm",Box-ball system,168,3687,961778,94
+427,"11th May 2013, 10:00 pm",n-sequences,170,10859,4251637,93
+428,"19th May 2013, 01:00 am",Necklace of circles,150,3724,2696286,93
+429,"26th May 2013, 04:00 am",Sum of squares of unitary divisors,1414,254,12581,94
+430,"2nd June 2013, 07:00 am",Range flips,522,1839,44238,93
+431,"9th June 2013, 10:00 am",Square Space Silo,384,2528,56154,97
+432,"15th June 2013, 01:00 pm",Totient sum,265,2970,720149,97
+433,"22nd June 2013, 04:00 pm",Steps in Euclid's algorithm,301,19701,459111,90
+434,"29th June 2013, 07:00 pm",Rigid graphs,225,4551,1157098,92
+435,"7th September 2013, 04:00 pm",Polynomials of Fibonacci numbers,574,848,24298,95
+436,"14th September 2013, 07:00 pm",Unfair wager,278,5230,237392,92
+437,"21st September 2013, 10:00 pm",Fibonacci primitive roots,447,424,38847,95
+438,"29th September 2013, 01:00 am",Integer part of polynomial equation's solutions,177,6121,3683940,87
+439,"6th October 2013, 04:00 am",Sum of sum of divisors,176,2437,4625784,78
+440,"13th October 2013, 07:00 am",GCD and Tiling,205,1629,242686,96
+441,"20th October 2013, 10:00 am",The inverse summation of coprime couples,221,1821,342822,95
+442,"26th October 2013, 01:00 pm",Eleven-free integers,244,1205,205500,95
+443,"2nd November 2013, 04:00 pm",GCD sequence,612,752,29886,97
+444,"9th November 2013, 07:00 pm",The Roundtable Lottery,179,1641,261041,97
+445,"16th November 2013, 10:00 pm",Retractions A,205,1599,139000,98
+446,"16th November 2013, 10:00 pm",Retractions B,195,4140,262883,97
+447,"16th November 2013, 10:00 pm",Retractions C,150,2071,2835329,86
+448,"24th November 2013, 01:00 am",Average least common multiple,191,2096,1080886,97
+449,"8th December 2013, 04:00 am",Chocolate covered candy,522,1443,55482,97
+450,"15th December 2013, 07:00 am",Hypocycloid and Lattice points,123,11136,2513778,58
+451,"22nd December 2013, 10:00 am",Modular inverses,807,499,32919,97
+452,"28th December 2013, 01:00 pm",Long Products,338,1980,83629,97
+453,"4th January 2014, 04:00 pm",Lattice Quadrilaterals,140,44681,3149560,73
+454,"11th January 2014, 07:00 pm",Diophantine reciprocals III,293,1828,138461,92
+455,"18th January 2014, 10:00 pm",Powers With Trailing Digits,410,640,74241,92
+456,"26th January 2014, 01:00 am",Triangles containing the origin II,274,1993,167983,92
+457,"2nd February 2014, 04:00 am",A polynomial modulo the square of a prime,437,1177,37676,93
+458,"9th February 2014, 07:00 am",Permutations of Project,468,481,25291,95
+459,"16th February 2014, 10:00 am",Flipping game,147,7888,2227837,58
+460,"22nd February 2014, 01:00 pm",An ant on the move,218,1970,246521,98
+461,"1st March 2014, 04:00 pm",Almost Pi,669,942,24631,95
+462,"8th March 2014, 07:00 pm",Permutation of 3-smooth numbers,185,881,238875,94
+463,"15th March 2014, 10:00 pm",A weird recurrence relation,603,1589,36661,96
+464,"23rd March 2014, 01:00 am",Möbius function and intervals,175,3265,272441,91
+465,"30th March 2014, 05:00 am",Polar polygons,132,5043,1195855,71
+466,"6th April 2014, 07:00 am",Distinct terms in a multiplication table,184,2118,456176,96
+467,"13th April 2014, 10:00 am",Superinteger,260,971,126050,92
+468,"19th April 2014, 01:00 pm",Smooth divisors of binomial coefficients,159,764,637064,94
+469,"26th April 2014, 04:00 pm",Empty chairs,420,892,51767,96
+470,"3rd May 2014, 07:00 pm",Super Ramvok,137,2945,386893,90
+471,"10th May 2014, 10:00 pm",Triangle inscribed in ellipse,132,2701,477268,73
+472,"18th May 2014, 01:00 am",Comfortable Distance II,169,4553,320252,97
+473,"25th May 2014, 04:00 am",Phigital number base,444,2351,39423,97
+474,"1st June 2014, 07:00 am",Last digits of divisors,220,1736,132830,94
+475,"8th June 2014, 10:00 am",Music festival,244,945,120006,93
+476,"14th June 2014, 01:00 pm",Circle Packing II,269,2396,32908,57
+477,"23rd August 2014, 04:00 pm",Number Sequence Game,160,3374,489072,93
+478,"30th August 2014, 07:00 pm",Mixtures,112,6873,14000208,93
+479,"6th September 2014, 10:00 pm",Roots on the Rise,697,843,24722,96
+480,"14th September 2014, 01:00 am",The Last Question,340,1648,90676,96
+481,"21st September 2014, 04:00 am",Chef Showdown,147,4092,469707,92
+482,"28th September 2014, 07:00 am",The incenter of a triangle,129,4229,2050365,94
+483,"5th October 2014, 10:00 am",Repeated permutation,107,7335,13552743,89
+484,"11th October 2014, 01:00 pm",Arithmetic Derivative,128,3407,6477259,91
+485,"18th October 2014, 04:00 pm",Maximum number of divisors,602,323,25441,98
+486,"25th October 2014, 07:00 pm",Palindrome-containing strings,152,4166,641808,95
+487,"1st November 2014, 10:00 pm",Sums of power sums,355,1496,66021,97
+488,"9th November 2014, 01:00 am",Unbalanced Nim,141,5630,1161472,93
+489,"16th November 2014, 04:00 am",Common factors between two sequences,112,3511,6777286,94
+490,"23rd November 2014, 07:00 am",Jumping frog,137,5223,3322884,95
+491,"30th November 2014, 10:00 am",Double pandigital number divisible by 11,1056,309,12993,96
+492,"6th December 2014, 01:00 pm",Exploding sequence,197,3327,325662,94
+493,"13th December 2014, 04:00 pm",Under The Rainbow,2197,186,6514,95
+494,"20th December 2014, 07:00 pm",Collatz prefix families,115,8780,9912575,92
+495,"27th December 2014, 10:00 pm",Writing n as the product of k distinct positive integers,103,5783,14704022,89
+496,"4th January 2015, 01:00 am",Incenter and circumcenter of triangle,179,1306,141027,95
+497,"11th January 2015, 04:00 am",Drunken Tower of Hanoi,278,1836,56553,94
+498,"18th January 2015, 07:00 am",Remainder of polynomial division,275,1365,68417,94
+499,"25th January 2015, 10:00 am",St. Petersburg Lottery,157,4173,5801578,83
+500,"31st January 2015, 01:00 pm",Problem 500!!!,1749,451,10227,94
+501,"31st January 2015, 01:00 pm",Eight Divisors,674,601,74901,93
+502,"7th February 2015, 04:00 pm",Counting Castles,142,3506,7105386,94
+503,"14th February 2015, 07:00 pm",Compromise or persist,202,1991,253064,86
+504,"21st February 2015, 10:00 pm",Square on the Inside,1428,316,7461,91
+505,"1st March 2015, 01:00 am",Bidirectional Recurrence,128,2814,2380491,91
+506,"8th March 2015, 04:00 am",Clock sequence,473,1024,30361,95
+507,"15th March 2015, 07:00 am",Shortest Lattice Vector,128,1668,2622695,96
+508,"22nd March 2015, 10:00 am",Integers in base i-1,129,2045,2136132,93
+509,"28th March 2015, 01:00 pm",Divisor Nim,309,518,70888,94
+510,"4th April 2015, 04:00 pm",Tangent Circles,564,652,27555,97
+511,"11th April 2015, 07:00 pm",Sequences with nice divisibility properties,234,1171,157381,96
+512,"18th April 2015, 10:00 pm",Sums of totients of powers,773,445,20362,98
+513,"26th April 2015, 01:00 am",Integral median,193,4082,356435,93
+514,"3rd May 2015, 04:00 am",Geoboard Shapes,124,1941,3237903,96
+515,"10th May 2015, 07:00 am",Dissonant Numbers,277,536,57409,94
+516,"17th May 2015, 10:00 am",5-smooth totients,689,649,15921,97
+517,"23rd May 2015, 01:00 pm",A real recursion,285,558,82765,97
+518,"30th May 2015, 04:00 pm",Prime triples and geometric sequences,723,940,15579,96
+519,"6th June 2015, 07:00 pm",Tricolored Coin Fountains,218,392,155062,95
+520,"13th June 2015, 10:00 pm",Simbers,242,1814,93147,97
+521,"21st June 2015, 01:00 am",Smallest prime factor,425,198,112243,97
+522,"28th June 2015, 04:00 am",Hilbert's Blackout,151,4407,1848045,91
+523,"6th September 2015, 07:00 am",First Sort I,453,620,30496,96
+524,"6th September 2015, 07:00 am",First Sort II,130,5118,738995,93
+525,"13th September 2015, 10:00 am",Rolling Ellipse,269,1362,93445,92
+526,"19th September 2015, 01:00 pm",Largest prime factors of consecutive numbers,193,7608,366213,95
+527,"26th September 2015, 04:00 pm",Randomized Binary Search,374,998,30647,94
+528,"3rd October 2015, 07:00 pm",Constrained Sums,162,545,212593,95
+529,"10th October 2015, 10:00 pm",10-substrings,113,4867,1288303,93
+530,"18th October 2015, 01:00 am",GCD of Divisors,187,1267,223976,97
+531,"25th October 2015, 04:00 am",Chinese leftovers,482,269,17407,99
+532,"1st November 2015, 07:00 am",Nanobots on Geodesics,183,2456,195980,90
+533,"8th November 2015, 10:00 am",Minimum values of the Carmichael function,198,885,115007,98
+534,"14th November 2015, 01:00 pm",Weak Queens,191,2179,180221,98
+535,"21st November 2015, 04:00 pm",Fractal Sequence,182,4417,219942,96
+536,"28th November 2015, 07:00 pm",Modulo power identity ,170,1591,224600,94
+537,"5th December 2015, 10:00 pm",Counting tuples,273,467,36919,95
+538,"13th December 2015, 01:00 am",Maximum quadrilaterals,202,990,55760,96
+539,"20th December 2015, 04:00 am",Odd elimination,421,1577,33505,96
+540,"27th December 2015, 07:00 am",Counting primitive Pythagorean triples,263,871,33535,97
+541,"3rd January 2016, 10:00 am",Divisibility of Harmonic Number Denominators,105,6917,1909713,90
+542,"9th January 2016, 01:00 pm",Geometric Progression with Maximum Sum,123,2414,361247,93
+543,"16th January 2016, 04:00 pm",Prime-Sum Numbers,311,809,23932,97
+544,"23rd January 2016, 07:00 pm",Chromatic Conundrum,107,4235,1553304,93
+545,"30th January 2016, 10:00 pm",Faulhaber's Formulas,241,913,40471,98
+546,"7th February 2016, 01:00 am",The Floor's Revenge,119,4576,1429384,95
+547,"14th February 2016, 04:00 am",Distance of random points within hollow square laminae,120,7527,529649,95
+548,"21st February 2016, 07:00 am",Gozinta Chains,257,1831,51038,95
+549,"28th February 2016, 10:00 am",Divisibility of factorials,670,367,7513,96
+550,"5th March 2016, 01:00 pm",Divisor game,150,934,177085,96
+551,"12th March 2016, 04:00 pm",Sum of digits sequence,199,60,137292,96
+552,"19th March 2016, 07:00 pm",Chinese leftovers II,202,756,71503,98
+553,"26th March 2016, 10:00 pm",Power sets of power sets,104,2501,1249901,89
+554,"3rd April 2016, 01:00 am",Centaurs on a chess board,108,6342,967837,92
+555,"10th April 2016, 04:00 am",McCarthy 91 function,279,834,28103,98
+556,"17th April 2016, 07:00 am",Squarefree Gaussian Integers,99,2619,1205408,90
