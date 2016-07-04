@@ -59,10 +59,10 @@ for i in range(6,13):
 
 
 polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši čas", "Povprečni čas", "Highscore #"]
-tabela = os.path.dirname('Tabela')
+tabela = os.path.dirname('Tabela.csv')
 if tabela:
     os.makedirs(dat, exist_ok = True)
-with open('Tabela','w') as file:
+with open('Tabela.csv','w') as file:
     writer = csv.writer(file)
     writer.writerow(polja)
     for i in range(277,300):
