@@ -38,12 +38,16 @@ def obdelaj_fastest_solvers(ime_dat):
 
     povprecni_cas = 0
 
+    indeks = 0
     for i in range(len(vsi)):
         mesto, resevalec, cas = vsi[i]
         mesto, resevalec, cas = int(mesto), resevalec, pretvori_v_sekunde(cas)
         try:
             if resevalec == '':
-                resevalec = posebni[i][1]
+                while int(posebni[indeks][0]) < mesto:
+                    indeks += 1
+                if int(posebni[indeks][0]) == mesto:
+                    resevalec = posebni[indeks][1]
         except:
             pass
         povprecni_cas += cas
