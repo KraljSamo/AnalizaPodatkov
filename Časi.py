@@ -70,8 +70,8 @@ def Main():
             slovar_nalog[int(ID)] = (ID, datum, ime, resilo, najhitrejsi, povprecni_cas, highscore)
 
 
-    polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši cas", "Povprecni cas", "Highscore #"]
-    with open('Tabela.csv','w') as file:
+    polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši čas", "Povprečni čas", "Highscore #"]
+    with open('Tabela.csv','w', encoding = 'utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(polja)
         for i in range(277,557):
@@ -82,7 +82,7 @@ def Main():
     Najboljsi_resevalci.pop('')
     
     polja_2 = ["Tekmovalec", "Točke"]
-    with open('Tekmovalci.csv', 'w') as file:
+    with open('Tekmovalci.csv', 'w', encoding = 'utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(polja_2)
         for ime, tocke in Najboljsi_resevalci.items():
