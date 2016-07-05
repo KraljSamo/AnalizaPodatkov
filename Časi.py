@@ -30,13 +30,22 @@ def obdelaj_fastest_solvers(ime_dat):
     regex_casi = re.compile(r'color:#555;">(\d*)\D.*?td><td>(.*?)<.*?td><td>(.*?)<')
     vsi = re.findall(regex_casi, vsebina_datoteke(ime_dat))
 
+    #Tisti, ki imajo nastavljen Alias
+    posebni_regex = re.compile(r'color:#555;">(\d*)\D.*?title="(.*?)".*?td><td>(.*?)<')
+    posebni = re.findall(posebni_regex, vsebina_datoteke(ime_dat))
+
     najhitrejsi = pretvori_v_sekunde(vsi[0][2])
 
     povprecni_cas = 0
 
-    for vrstica in vsi:
-        mesto, resevalec, cas = vrstica
+    for i in range(len(vsi)):
+        mesto, resevalec, cas = vsi[i]
         mesto, resevalec, cas = int(mesto), resevalec, pretvori_v_sekunde(cas)
+        try:
+            if resevalec == '':
+                resevalec = posebni[i][1]
+        except:
+            pass
         povprecni_cas += cas
         if resevalec not in Najboljsi_resevalci:
             Najboljsi_resevalci[resevalec] = 101 - mesto
@@ -78,8 +87,6 @@ def Main():
             writer.writerow(slovar_nalog[i])
 
     ### Tabela resevalcev
-
-    Najboljsi_resevalci.pop('')
     
     polja_2 = ["Tekmovalec", "Točke"]
     with open('Tekmovalci.csv', 'w', encoding = 'utf-8') as file:
