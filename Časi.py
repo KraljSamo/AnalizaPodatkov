@@ -51,9 +51,15 @@ def obdelaj_fastest_solvers(ime_dat):
             pass
         povprecni_cas += cas
         if resevalec not in Najboljsi_resevalci:
-            Najboljsi_resevalci[resevalec] = 101 - mesto
+            if mesto == 1:
+                dodaj = [101 - mesto, 1]
+            else:
+                dodaj = [101 - mesto, 0]
+            Najboljsi_resevalci[resevalec] = dodaj
         else:
-            Najboljsi_resevalci[resevalec] += 101 - mesto
+            Najboljsi_resevalci[resevalec][0] += 101 - mesto
+            if mesto == 1:
+                Najboljsi_resevalci[resevalec][1] += 1
 
     povprecni_cas = povprecni_cas//len(vsi)
     return (najhitrejsi, povprecni_cas, len(vsi))
@@ -91,12 +97,13 @@ def Main():
 
     ### Tabela resevalcev
     
-    polja_2 = ["Tekmovalec", "Točke"]
+    polja_2 = ["Tekmovalec", "Točke", "Št. prvih mest"]
     with open('Tekmovalci.csv', 'w', encoding = 'utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(polja_2)
-        for ime, tocke in Najboljsi_resevalci.items():
-            writer.writerow([ime, tocke])
+        for tekmovalec in Najboljsi_resevalci:
+            tocke, mest = Najboljsi_resevalci[tekmovalec]
+            writer.writerow([tekmovalec, tocke, mest])
     
 
      
