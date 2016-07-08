@@ -18,7 +18,6 @@ def pretvori_v_sekunde(niz):
     return skupni_cas
 
 def vsebina_datoteke(ime_datoteke):
-    '''Vrne niz z vsebino datoteke z danim imenom.'''
     with open(ime_datoteke) as datoteka:
         vsebina = datoteka.read()
     return vsebina
@@ -83,7 +82,7 @@ def Main():
             slovar_nalog[int(ID)] = (ID, datum, ime, resilo, najhitrejsi, povprecni_cas, highscore)
 
 
-    polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši čas", "Povprečni čas", "Highscore #"]
+    polja = ["ID", "Objavljeno", "Ime", "Rešilo #", "Najhitrejši čas [s]", "Povprečni čas [s]", "Highscore #"]
     with open('Tabela.csv','w', encoding = 'utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(polja)
